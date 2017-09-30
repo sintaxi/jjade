@@ -1,22 +1,15 @@
 {
-  "name": "jade-legacy",
-  "description": "Jade version 1.x with security patches",
+  "name": "jjade",
+  "description": "Just Jade version 1.x with security patches",
   "version": "1.11.1",
   "author": "TJ Holowaychuk <tj@vision-media.ca>",
   "maintainers": [
-    "Forbes Lindesay <forbes@lindesay.co.uk>",
-    "Matthias Le Brun <mlbli@me.com>",
-    "Joshua Appelman <joshua@jbna.nl>",
-    "Jonathan Ong <jonathanrichardong@gmail.com>",
-    "Alex Kocharin <alex@kocharin.ru>",
-    "Hemanth <hemanth.hm@gmail.com>",
-    "Timothy Gu <timothygu99@gmail.com>",
-    "Andreas Lubbe <git@lubbe.org>"
+    "Brock Whitten <brock@sintaxi.com>"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jnordberg/jade-legacy"
+    "url": "git://github.com/sintaxi/jjade"
   },
   "main": "lib",
   "bin": {
@@ -90,5 +83,5 @@
     "fs": false,
     "./lib/filters.js": "./lib/filters-client.js"
   },
-  "homepage": "http://github.com/jnordberg/jade-legacy"
+  "homepage": "http://github.com/sintaxi/jjade"
 }
